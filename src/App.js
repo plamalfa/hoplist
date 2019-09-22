@@ -1,24 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import HopList from "./HopList.json";
 
-function App() {
+const Hops = ({ name, description, countryOfOrigin }) => {
+  return (
+    <section>
+      <h2>
+        Name: <i>{name}</i>
+      </h2>
+      <p>Description: {description}</p>
+      <p>Country of Origin: {countryOfOrigin}</p>
+    </section>
+  );
+};
+
+function App({ hops = { HopList } }) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hops</h1>
+      {hops.map(hop => (
+        <Hops
+          name={hop.name}
+          description={hop.description}
+          countryOfOrigin={hop.countryOfOrigin}
+        />
+      ))}
     </div>
   );
 }
