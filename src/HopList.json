@@ -797,13 +797,6 @@
     }
   },
   {
-    "id": 97,
-    "name": "Palisades",
-    "category": "hop",
-    "categoryDisplay": "Hops",
-    "createDate": "2013-06-24 16:07:34"
-  },
-  {
     "id": 98,
     "name": "Perle (American)",
     "description":
@@ -900,13 +893,6 @@
     }
   },
   {
-    "id": 115,
-    "name": "Saphir (German Organic)",
-    "category": "hop",
-    "categoryDisplay": "Hops",
-    "createDate": "2013-06-24 16:07:36"
-  },
-  {
     "id": 118,
     "name": "Simcoe",
     "description":
@@ -969,20 +955,6 @@
       "numberCode": 840,
       "createDate": "2012-01-03 02:41:33"
     }
-  },
-  {
-    "id": 133,
-    "name": "Styrian Aurora",
-    "category": "hop",
-    "categoryDisplay": "Hops",
-    "createDate": "2013-06-24 16:07:37"
-  },
-  {
-    "id": 1933,
-    "name": "Styrian Bobeks",
-    "category": "hop",
-    "categoryDisplay": "Hops",
-    "createDate": "2013-06-24 16:07:40"
   },
   {
     "id": 134,
@@ -1079,13 +1051,6 @@
       "numberCode": 840,
       "createDate": "2012-01-03 02:41:33"
     }
-  },
-  {
-    "id": 146,
-    "name": "Topaz",
-    "category": "hop",
-    "categoryDisplay": "Hops",
-    "createDate": "2013-06-24 16:07:38"
   },
   {
     "id": 155,
